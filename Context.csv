@@ -1,0 +1,69 @@
+page,element_id,selector_hint,copy,length,tone,notes
+home.hero.headline,#hero .headline,"Discover Seasonal Style",short,modern,Primary hero H1
+home.hero.subhead,#hero .subhead,"Curated collections, effortless fits — new arrivals for Men & Women. Free returns within 30 days.",medium,modern,Include benefits + returns policy
+home.hero.cta_primary,#hero .cta-primary,"Shop New Arrivals",short,modern,Primary CTA
+home.hero.cta_secondary,#hero .cta-secondary,"Explore Sale",short,modern,Secondary CTA
+home.featured.title,#featured .title,"Shop the Collections",short,modern,Section heading
+home.featured.subtitle,#featured .subtitle,"Handpicked looks for work, weekend, and everything in between.",medium,modern,Subhead
+home.trending.title,#trending .title,"Trending Now",short,modern,Section heading
+home.trending.caption,#trending .caption,"Customer favorites, restocked and ready to ship.",short,modern,Subhead
+home.newsletter.headline,#newsletter .headline,"Join the Hive",short,modern,Newsletter H2
+home.newsletter.subhead,#newsletter .subhead,"Get 10% off your first order and early access to drops.",medium,modern,Enticing offer
+home.newsletter.cta,#newsletter .cta,"Get 10% Off",short,modern,Button label
+product.card.title,.product-card .title,"[PRODUCT_NAME]",short,modern,Replace placeholder with product title
+product.card.price,.product-card .price,"$[price]",short,modern,Show sale formatting separately
+product.card.price.sale,.product-card .price-sale,"Now $[salePrice]  Was $[originalPrice]",short,modern,Sale microcopy
+product.card.add,.product-card .add-btn,"Add",short,modern,Quick add label
+product.page.h1,#product .title,"[PRODUCT_NAME]",short,modern,Primary H1
+product.page.short_desc,#product .short-desc,"[One-line benefit: e.g., tailored fit, breathable fabric, water-resistant].",short,modern,Short summary under title
+product.page.price,#product .price,"$[price] — Now $[salePrice] (if applicable)",short,modern,Show savings when on sale
+product.page.size_label,#product .size-selector .label,"Select size",short,modern,Selector label
+product.page.color_label,#product .color-selector .label,"Select color",short,modern,Selector label
+product.page.add_to_cart,#product .add-to-cart,"Add to Cart",short,modern,Primary purchase CTA
+product.page.buy_now,#product .buy-now,"Buy Now",short,modern,Alternate CTA for quick purchase
+product.page.stock_in,#product .stock,"In stock — ships in 1–2 business days",short,modern,Availability text
+product.page.stock_low,#product .stock-low,"Only [n] left in this size",short,modern,Urgency microcopy
+product.page.stock_oos,#product .stock-oos,"Out of stock — join the waitlist",short,modern,Encourage email capture
+product.template.long_desc,#product .long-desc,"[ProductName] is a [style] crafted from [material] for [primary benefit]. Designed with [feature], it delivers [comfort/performance/shape] whether you're [use case].",long,modern,Template for long description
+product.template.features,#product .features,"Material: [material]; Fit: [fit]; Care: [care]; Details: [features]; Made for: [occasion]",long,modern,Comma-separated bullets OK
+cart.page.h1,#cart .title,"Your Cart",short,modern,Cart page H1
+cart.empty.msg,#cart .empty,"Your cart is empty — find your next favorite outfit in New Arrivals.",short,modern,Encouraging empty-state copy
+cart.empty.cta,#cart .empty-cta,"Shop New Arrivals",short,modern,Empty-state CTA
+cart.promo.placeholder,#cart .promo,"Enter promo code",short,modern,Input placeholder
+cart.promo.success,#cart .promo-success,"Promo applied — you saved $[amount]",short,modern,Success toast
+cart.promo.error,#cart .promo-error,"Promo code not valid or expired",short,modern,Error message
+cart.checkout.cta,#cart .checkout-btn,"Proceed to Checkout",short,modern,Primary CTA
+mini_cart.added.title,#mini-cart .title,"Added to cart",short,modern,Mini-cart header
+mini_cart.added.line,#mini-cart .line,"[ProductName] added to your cart.",short,modern,Confirmation
+mini_cart.view_cta,#mini-cart .view,"View cart",short,modern,Button label
+checkout.step.shipping,#checkout .step-label-1,"Shipping",short,modern,Step label
+checkout.step.payment,#checkout .step-label-2,"Payment",short,modern,Step label
+checkout.step.review,#checkout .step-label-3,"Review",short,modern,Step label
+checkout.form.name,#checkout input[name='fullName'],"Full name",short,modern,Form label
+checkout.form.address1,#checkout input[name='address1'],"Address line 1",short,modern,Form label
+checkout.form.city,#checkout input[name='city'],"City",short,modern,Form label
+checkout.form.postal,#checkout input[name='postal'],"ZIP / Postal code",short,modern,Form label
+checkout.billing.same_checkbox,#checkout input[name='sameBilling'],"My billing address is the same as shipping",short,modern,Checkbox label
+checkout.payment.card_number,#checkout input[name='cardNumber'],"Card number",short,modern,Payment label
+checkout.payment.expiry,#checkout input[name='expiry'],"Expiration (MM/YY)",short,modern,Payment label
+checkout.payment.cvc,#checkout input[name='cvc'],"CVC",short,modern,Payment label
+checkout.place_order,#checkout .place-order,"Place Order",short,modern,Final CTA
+checkout.processing,#checkout .processing,"Processing your payment — please do not refresh the page.",short,modern,Processing message
+checkout.error.card_declined,#checkout .error-card,"Your card was declined. Please check your details or try another card.",short,modern,Payment error
+order.confirm.h1,#order-confirm .title,"Thank you — your order is confirmed!",short,modern,Confirmation headline
+order.confirm.summary,#order-confirm .summary,"Order #[ORDER_NUMBER] • Confirmation sent to [email@example.com]",short,modern,Summary line
+contact.h1,#contact .title,"Get in touch",short,modern,Contact page H1
+contact.subhead,#contact .subhead,"Questions about sizing, returns, or an order? We’re here to help.",short,modern,Contact subhead
+contact.form.success,#contact .success,"Thanks — we’ll get back to you within 1 business day.",short,modern,Success message
+footer.tagline,#footer .tagline,"Modern style, made simple.",short,modern,Footer tagline
+footer.link.privacy,#footer a[href='/privacy-policy'],"Privacy Policy",short,neutral,Legal link
+footer.link.shipping,#footer a[href='/shipping-info'],"Shipping Information",short,neutral,Legal link
+footer.link.returns,#footer a[href='/returns-exchanges'],"Returns & Exchanges",short,neutral,Legal link
+footer.social.prompt,#footer .social,"Follow us @FashionHive",short,modern,Social prompt
+reviews.title,#product .reviews-title,"Customer reviews",short,modern,Reviews H2
+reviews.write_cta,#product .write-review,"Write a review",short,modern,CTA for reviews
+seo.home.title,meta[name='title'],"FashionHive — Curated Fashion for Men & Women",short,modern,Homepage title tag
+seo.home.meta,meta[name='description'],"Discover seasonal collections, trends, and everyday essentials at FashionHive. Free returns within 30 days — shop new arrivals and sale styles.",medium,modern,Homepage meta description
+analytics.event.add_to_cart,dataLayer.event,"product_add_to_cart",short,modern,Event name for dataLayer
+analytics.event.begin_checkout,dataLayer.event,"begin_checkout",short,modern,Event name
+analytics.event.purchase,dataLayer.event,"purchase_complete",short,modern,Event name
